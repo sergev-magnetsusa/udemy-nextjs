@@ -8,7 +8,7 @@ interface IProps {
   children: ReactNode;
 }
 
-const Modal = ({children}: IProps) => {
+const RotoModal = ({children}: IProps) => {
   const router = useRouter();
   const dialogRef = useRef<ElementRef<'dialog'>>(null);
 
@@ -33,4 +33,4 @@ const Modal = ({children}: IProps) => {
   )
 }
 
-export default Modal
+export default RotoModal
